@@ -10,12 +10,12 @@ import { Project } from './component/section/Project'
 import { Conttact } from './component/section/Contact';
 
 function App() {
-  const [isloading, setisloading] = useState(false);
+  // const [isloading, setisloading] = useState(false);
   const [menuopen, setmenuopen] = useState(false);
 
   return (
     <>
-      {!isloading && <LoadingScreen oncomplete={() => setisloading(true)} />}
+      {/* {!isloading && <LoadingScreen oncomplete={() => setisloading(true)} />} */}
 
       <div className={`min-h-screen transition=opacity duration-700`}>
         <Navbar menuopen={menuopen} setmenuopen={setmenuopen} />
