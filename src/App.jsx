@@ -22,7 +22,7 @@ function App() {
 
         <Mobilmenu menuopen={menuopen} setmenuopen={setmenuopen} />
 
-        {/* <Home /> */}
+        <Home />
         <About />
         <Project />
         <Conttact />
